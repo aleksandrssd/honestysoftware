@@ -77,6 +77,7 @@ class Home extends CI_Controller {
         $relt = $this->email->send();
         $saved = "Your mail sent successfully. Thank you for contact with us";
         $this->session->set_userdata('saved',$saved);
+		
         $this->load->view('contact', $data);
     }
 
