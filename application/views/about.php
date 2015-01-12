@@ -33,7 +33,7 @@
                             <li><a href="<?php echo site_url('home/aboutus'); ?>">About us</a></li>
                             <li><a href="<?php echo site_url('home/services'); ?>">Services</a></li>
                             <li><a href="<?php echo site_url('home/hosting'); ?>">Hosting</a></li>
-                            <li><a href="<?php echo site_url('home/projectfourcol'); ?>">Projects</a></li>                                                       
+                            <li><a href="<?php echo site_url('home/projectfourcol'); ?>">Portfolio</a></li>                                                       
                             <li><a href="<?php echo site_url('home/blog'); ?>">Blog</a></li>          
                             <li><a href="<?php echo site_url('home/contact'); ?>">Contact</a></li>
                         </ul>

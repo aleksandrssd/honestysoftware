@@ -331,7 +331,7 @@ h2 {
     font-size: 17px;
     line-height: 20px;
     color: #12212f;
-/*    text-transform: uppercase;*/
+    /*    text-transform: uppercase;*/
     text-align: left;
     position: relative;
     /*    border-bottom: 3px solid #eee;
@@ -734,7 +734,7 @@ Our Team
     opacity: 0.7;
 }
 .team_skills {
-/*    margin-top: 24px;*/
+    /*    margin-top: 24px;*/
     color: #fff;
 }
 /*
@@ -1377,9 +1377,11 @@ Accordion
 #accordion h3 {
     padding: 6px 15px;
     margin-bottom: 7px;
-    background: #545454;
+    //background: #545454;
     border: 0;
-    color: #fff;
+    color: #666666;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid gray;
     font-weight: normal;
 }
 #accordion .ui-icon {
@@ -1390,7 +1392,9 @@ Accordion
     padding: 5px 15px 17px 15px;
 }
 #accordion .ui-state-active {
-    background: #E35845;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid gray;
+    color: #666666;
 }
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
     position: absolute;
@@ -1814,21 +1818,21 @@ This area adds love and makes the site reponsive
     border-radius: 5px 5px 0px 0px;
 }
 input[type="submit"] {
-border: none;
-background: #12212f;
-color: #fff;
-width: 412px;
-height: 41px;
-padding: 0 10px;
-font-size: 14px;
-line-height: 41px;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-outline: none;
--webkit-transition: all 0.3s ease;
--moz-transition: all 0.3s ease;
--o-transition: all 0.3s ease;
-transition: all 0.3s ease;
-cursor: pointer;
+    border: none;
+    background: #12212f;
+    color: #fff;
+    width: 412px;
+    height: 41px;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 41px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }

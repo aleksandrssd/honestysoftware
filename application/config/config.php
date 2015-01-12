@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://honestysoftware.com/';
+$config['base_url']	= 'http://192.168.1.24/honestysoftware/';
 
 /*
 |--------------------------------------------------------------------------
