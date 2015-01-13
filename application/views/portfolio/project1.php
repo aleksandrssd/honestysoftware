@@ -1,3 +1,19 @@
+<style>
+#wrapper{
+margin:auto;
+width:30%;
+}
+a{
+text-decoration:none;
+color: cornflowerblue;
+}
+a:hover{
+text-decoration:underline;
+}
+#fruits{
+border:10px solid #000;
+}
+</style>
 <!--SLIDER-->
 <section class="innerpages">
     <div class="grid_12">                       
@@ -11,74 +27,86 @@
     <div class="container_12"> 
         <!--==============================content================================-->
         <section class="content">
-            <div class="wrapper">
-                <article class="grid_12 last-col">
-                    <div class="hello_box"> By tying thousands of balloons to his home, 78-year-old Carl sets out to fulfill his lifelong dream to see the wilds of South America. </div>
-                </article>
-            </div>
+
             <div class="wrapper projects">
                 <div class="row clearfix">
                     <article class="grid_6">
-                        <div class="flexslider projectdetails">
-                            <ul class="slides">
-                                <li> <img src="<?php echo $baseurl; ?>assets/images/project-details.jpg" alt="Featured"/> </li>
-                                <li> <img src="<?php echo $baseurl; ?>assets/images/project-details2.jpg" alt="Featured"> </li>
-                                <li> <img src="<?php echo $baseurl; ?>assets/images/project-details3.jpg" alt="Featured"/> </li>
+                        <div id="fruits">
+                            <ul>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits1.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits2.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits3.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits4.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits5.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits6.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits7.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/fruits8.jpg" /></li>
+
                             </ul>
                         </div>
+<!--                        <div class="photocradle" style="width:450px;height:270px;"></div>-->
                     </article>
                     <article class="grid_6">
                         <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
                         <div id="accordion">
-                            <h3>Client</h3>
-                            <div> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
-                            <h3> Skills Involved</h3>
-                            <div> Phasellus mattis tincidunt nibh.</div>
-                            <h3> Platform</h3>
-                            <div> Nam dui erat, auctor a, dignissim quis.</div>
+                            <h3> + Client</h3>
+                            <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>abc</li>
+                                    <li>abc</li>
+                                </ul>
+                            </div>
+                            <h3> + Skills Involved</h3>
+                            <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>abc</li>
+                                    <li>abc</li>
+                                </ul>
+                            </div>
+                            <h3> + Platform</h3>
+                            <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>abc</li>
+                                    <li>abc</li>
+                                </ul>
+                            </div>
                         </div>
                     </article>
                 </div>
-                <div class="row clearfix">
+                <div class="row clearfix" id="responsivetab">
                     <article class="grid_12">
-                        <div id="tabs">
+                        <div id="horizontalTab">
                             <ul>
-                                <li><a href="#tabs-1">First</a></li>
-                                <li><a href="#tabs-2">Second</a></li>
-                                <li><a href="#tabs-3">Third</a></li>
+                                <li><a href="#tab-1">Details</a></li>
+                                <li><a href="#tab-2">Major Modules</a></li>
+                                <li><a href="#tab-3">Features & Benefits</a></li>
                             </ul>
-                            <div id="tabs-1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                            <div id="tabs-2"> Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet
-                                ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum
-                                bibendum.</div>
-                            <div id="tabs-3"> Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi
-                                urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor
-                                ullamcorper augue.</div>
+                            <div id="tab-1">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu scelerisque eros. Fusce ante orci, hendrerit sit amet metus sit amet, venenatis sodales felis. Morbi vel mi in leo dignissim convallis in a neque. Suspendisse sollicitudin nibh non dapibus condimentum. Etiam sit amet arcu ultricies, porttitor justo eget, scelerisque urna. Praesent non ligula nec ligula euismod condimentum eget sed augue. Ut feugiat, turpis id sollicitudin vestibulum, tellus massa adipiscing nisl, quis cursus nisl arcu vel ipsum.</p>
+                            </div>
+                            <div id="tab-2">
+                                <p>Quisque sodales sodales lacus pharetra bibendum. Etiam commodo non velit ac rhoncus. Mauris euismod purus sem, ac adipiscing quam laoreet et. Praesent vulputate ornare sem vel scelerisque. Ut dictum augue non erat lacinia, sed lobortis elit gravida. Proin ante massa, ornare accumsan ultricies et, posuere sit amet magna. Praesent dignissim, enim sed malesuada luctus, arcu sapien sodales sapien, ut placerat eros nunc vel est. Donec tristique mi turpis, et sodales nibh gravida eu. Etiam odio risus, porttitor non lacus id, rhoncus tempus tortor. Curabitur tincidunt molestie turpis, ut luctus nibh sollicitudin vel. Sed vel luctus nisi, at mattis metus. Aenean ultricies dolor est, a congue ante dapibus varius. Nulla at auctor nunc. Curabitur accumsan feugiat felis ut pretium. Praesent semper semper nisi, eu cursus augue.</p>
+                            </div>
+                            <div id="tab-3">
+                                <p>Mauris facilisis elit ut sem eleifend accumsan molestie sit amet dolor. Pellentesque dapibus arcu eu lorem laoreet, vitae cursus metus mattis. Nullam eget porta enim, eu rutrum magna. Duis quis tincidunt sem, sit amet faucibus magna. Integer commodo, turpis consequat fermentum egestas, leo odio posuere dui, elementum placerat eros erat id augue. Nullam at eros eget urna vestibulum malesuada vitae eu mauris. Aliquam interdum rhoncus velit, quis scelerisque leo viverra non. Suspendisse id feugiat dui. Nulla in aliquet leo. Proin vel magna sed est gravida rhoncus. Mauris lobortis condimentum nibh, vitae bibendum tortor vehicula ac. Curabitur posuere arcu eros.</p>
+                            </div>
                         </div>
                     </article>
-          <!--                    <article class="grid_3"> <span>Client:</span> Pixar Labs <br />
-                                  <span>Year:</span> 2009<br />
-                                  <span>Type:</span> Website<br />
-                                  <a href="#" class="button small">Visit Site</a> </article>
-                              <article class="grid_9">
-                                  <div class="css_cols"> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. </div>
-                              </article>-->
                 </div>
-                <div class="grid_12">
-                    <h2 class="clearfix"> <span class="f_left">Related Projects</span> <a id="next" class="next"></a> <a id="prev" class="prev"></a> </h2>
-                    <ul id="projects-carousel" class="project-details-caro">
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details.jpg"  alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details8.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details8.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details3.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details3.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details4.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details4.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details5.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details5.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details6.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details6.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details7.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details7.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                        <li class="grid_3 project-item"><a href="javascript:"><img src="images/project-details8.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details8.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </li>
-                    </ul>
-                </div>
+                <article class="row clearfix">
+                    <div class="projects-fourcols clearfix">
+                        <div class="grid_12">
+                            <h2 class="clearfix"> <span class="f_left">Related Projects</span> <a id="next" class="next"></a> <a id="prev" class="prev"></a> </h2>
+                            <div id="projects-carousel" class="project-details-caro">
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details.jpg"      alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%; height: 300px;"><a href="images/project-details.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details8.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details8.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details3.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details3.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details4.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details4.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details5.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details6.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details6.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details7.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details7.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                                <article class="grid_3 project-item"><a href="javascript:"><img src="<?php echo $baseurl; ?>assets/images/project-details8.jpg"     alt="Featured"></a> <span class="zoom-icon" style="bottom: 100%;"><a href="images/project-details8.jpg" class="touch-item"></a></span> <span class="zoom-link" style="top: 100%;"><a href="project-details.html">Details</a></span> <span class="zoom-bg" style="opacity: 0; "></span> </article>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
         </section>
     </div>
@@ -118,3 +146,8 @@
         </section>
     </div>
 </div>
+<script language="javascript">
+    $(document).ready(function() {
+        $("#fruits").tiksluscarousel({width: 450, height: 270, nav: 'thumbnails', current: 1, type: 'zoom'});
+    });
+</script>

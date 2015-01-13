@@ -71,18 +71,53 @@
 <script src="<?php echo $baseurl; ?>assets/js/touchTouch.jquery.js" type="text/javascript"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-ui-1.8.24.custom.min.js"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/script.js"></script>
-<script>
-function loadUrl(sval) {
-    if (sval == 'three') {
-        var getlocation = '<?php echo site_url("home/projectthreecol"); ?>';
-        this.document.location.href = getlocation;
-    }
-    if (sval == 'four') {
-        var getlocation = '<?php echo site_url("home/projectfourcol"); ?>';
-        this.document.location.href = getlocation;
-    }
+<!--<script src="js/jquery-2.1.0.min.js"></script>-->
+<script src="<?php echo $baseurl; ?>assets/js/jquery.responsiveTabs.js" type="text/javascript"></script>
 
-}
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#horizontalTab').responsiveTabs({
+        rotate: false,
+        startCollapsed: 'accordion',
+        collapsible: 'accordion',
+        setHash: true,
+        disabled: [3, 4],
+        activate: function(e, tab) {
+            $('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
+        },
+        activateState: function(e, state) {
+            //console.log(state);
+            $('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
+        }
+    });
+
+    $('#start-rotation').on('click', function() {
+        $('#horizontalTab').responsiveTabs('startRotation', 1000);
+    });
+    $('#stop-rotation').on('click', function() {
+        $('#horizontalTab').responsiveTabs('stopRotation');
+    });
+    $('#start-rotation').on('click', function() {
+        $('#horizontalTab').responsiveTabs('active');
+    });
+    $('.select-tab').on('click', function() {
+        $('#horizontalTab').responsiveTabs('activate', $(this).val());
+    });
+
+});
+</script>
+<script>
+    function loadUrl(sval) {
+        if (sval == 'three') {
+            var getlocation = '<?php echo site_url("home/projectthreecol"); ?>';
+            this.document.location.href = getlocation;
+        }
+        if (sval == 'four') {
+            var getlocation = '<?php echo site_url("home/projectfourcol"); ?>';
+            this.document.location.href = getlocation;
+        }
+
+    }
 </script>
 </body>
 </html>

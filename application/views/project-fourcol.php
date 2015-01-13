@@ -1,7 +1,12 @@
-﻿<!DOCTYPE html>
+<style type="text/css">
+    #portfolioproject{
+        border: .5px solid #c2c2c2;
+    }
+</style>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title><?php echo $title;?></title>
+        <title><?php echo $title; ?></title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <link rel="icon" href="<?php echo $baseurl; ?>assets/images/favicon.ico" type="image/x-icon" />
@@ -83,17 +88,13 @@
                         </div>
                         <article class="row clearfix">
                             <div class="projects-fourcols clearfix " id="projects">
-                                <article class="grid_3 project-item websites "> 
+                                <article class="grid_3 project-item websites " id="portfolioproject"> 
                                     <a href="http://host30.cention.se/Login/-/workflow"><img src="<?php echo $baseurl; ?>assets/images/project-details.jpg" alt="Project 1"></a>                                   
                                     <p class="entry-title">
                                         Web site:
                                         <a href="<?php echo site_url('portfolio/project1'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Cention Contact Center<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -104,17 +105,13 @@
                                         </span>
                                     </span>
                                 </article>
-                                <article class="grid_3 project-item applications"> 
+                                <article class="grid_3 project-item applications" id="portfolioproject"> 
                                     <a href="http://www.premiumwebcart.com/"><img src="<?php echo $baseurl; ?>assets/images/project-details9.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://www.premiumwebcart.com/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project2'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Premium web cart<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -125,18 +122,14 @@
                                         </span> 
                                     </span> 
                                 </article>
-                                <article class="grid_3 project-item applications">
+                                <article class="grid_3 project-item applications" id="portfolioproject">
                                     <a href="http://deladavid.com/"><img src="<?php echo $baseurl; ?>assets/images/project-details3.jpg" alt="Project 1"></a>
                                     <br/>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://deladavid.com/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project3'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Dela david Store<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -147,17 +140,13 @@
                                         </span>
                                     </span> 
                                 </article>
-                                <article class="grid_3 project-item  wordpress">
+                                <article class="grid_3 project-item  wordpress" id="portfolioproject">
                                     <a href="http://www.uniglare.com/"><img src="<?php echo $baseurl; ?>assets/images/project-details4.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://www.uniglare.com/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project4'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Uni Glare<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -172,13 +161,9 @@
                                     <a href="https://whitecall.ca"><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="https://whitecall.ca" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project5'); ?>" rel="bookmark" title="Cention COntact Center">
                                             VPS EYE<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -193,13 +178,10 @@
                                     <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe"><img src="<?php echo $baseurl; ?>assets/images/project-details6.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project6'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Video Frame<br/>
                                         </a>
-                                        <span class="button large">Java</span>
-                                        <span class="button large">SQL Lite</span> 
-                                        <span class="button large">Android</span>
-                                     </p>
+                                    </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
                                             <a href="<?php echo $baseurl; ?>assets/images/project-details6.jpg" class="touch-item"></a>
@@ -213,13 +195,9 @@
                                     <a href="https://uk.ses-astra.com/18612988/uk"><img src="<?php echo $baseurl; ?>assets/images/project-details7.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="https://uk.ses-astra.com/18612988/uk" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project7'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Solidus ecare<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -234,13 +212,9 @@
                                     <a href="https://pwcproject.com/v2/login"><img src="<?php echo $baseurl; ?>assets/images/project-details8.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="https://pwcproject.com/v2/login" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project8'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Project Manager<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -255,13 +229,10 @@
                                     <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2"><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project9'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Pwc Store<br/>
                                         </a>
-                                        <span class="button large">Java</span>
-                                        <span class="button large">SQL LITE</span> 
-                                        <span class="button large">Android</span>
-                                      </p>
+                                    </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
                                             <a href="<?php echo $baseurl; ?>assets/images/project-details9.jpg" class="touch-item"></a>
@@ -275,13 +246,9 @@
                                     <a href="http://mwfashionltd.com/"><img src="<?php echo $baseurl; ?>assets/images/project-details10.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://mwfashionltd.com/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project10'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Mw Fashion<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; "> 
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -296,13 +263,9 @@
                                     <a href="http://clouditbd.com/"><img src="<?php echo $baseurl; ?>assets/images/project-details11.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://clouditbd.com/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project11'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Cloud it Limited<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -317,13 +280,9 @@
                                     <a href="http://www.kontaktdata.se/"><img src="<?php echo $baseurl; ?>assets/images/project-details12.jpg" alt="Project 1"></a>
                                     <p class="entry-title">
                                         Web site:
-                                        <a href="http://www.kontaktdata.se/" rel="bookmark" title="Cention COntact Center">
+                                        <a href="<?php echo site_url('portfolio/project12'); ?>" rel="bookmark" title="Cention COntact Center">
                                             Kontakt Data<br/>
                                         </a>
-                                        <span class="button large">PHP</span>
-                                        <span class="button large">Mysql</span> 
-                                        <span class="button large">CSS</span>
-                                        <span class="button large">Jquery</span>
                                     </p>
                                     <span class="zoom-bg" style="opacity: 0; ">
                                         <span class="zoom-icon" style="bottom: 100%;">
@@ -421,12 +380,14 @@
                         <div class="grid_4">
                             <div id="fb-root"></div>
                             <script>(function(d, s, id) {
-                                var js, fjs = d.getElementsByTagName(s)[0];
-                                if (d.getElementById(id)) return;
-                                js = d.createElement(s); js.id = id;
-                                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=373650309375413&version=v2.0";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }(document, 'script', 'facebook-jssdk'));
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id))
+                                        return;
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=373650309375413&version=v2.0";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));
                             </script>
                             <div class="fb-like-box" style="background-color: white" data-href="https://www.facebook.com/honestysoft" data-width="300px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div> 
                         </div>
@@ -446,17 +407,17 @@
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-ui-1.8.24.custom.min.js"></script> 
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/script.js"></script>
         <script>
-        function loadUrl(sval){
-            if(sval == 'three'){
-                var getlocation = '<?php echo site_url("home/projectthreecol"); ?>';
-                this.document.location.href = getlocation;
-            }
-            if(sval == 'four'){
-                var getlocation = '<?php echo site_url("home/projectfourcol"); ?>';
-                this.document.location.href = getlocation;
-            }
-               
-        }    
+                                function loadUrl(sval) {
+                                    if (sval == 'three') {
+                                        var getlocation = '<?php echo site_url("home/projectthreecol"); ?>';
+                                        this.document.location.href = getlocation;
+                                    }
+                                    if (sval == 'four') {
+                                        var getlocation = '<?php echo site_url("home/projectfourcol"); ?>';
+                                        this.document.location.href = getlocation;
+                                    }
+
+                                }
         </script>
     </body>
 </html>
