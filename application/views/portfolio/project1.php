@@ -1,18 +1,7 @@
-<style>
-#wrapper{
-margin:auto;
-width:30%;
-}
-a{
-text-decoration:none;
-color: cornflowerblue;
-}
-a:hover{
-text-decoration:underline;
-}
-#fruits{
-border:10px solid #000;
-}
+<style> 
+    #fruits{
+        border:1px solid #e1e1e1;
+    }
 </style>
 <!--SLIDER-->
 <section class="innerpages">
@@ -27,7 +16,6 @@ border:10px solid #000;
     <div class="container_12"> 
         <!--==============================content================================-->
         <section class="content">
-
             <div class="wrapper projects">
                 <div class="row clearfix">
                     <article class="grid_6">
@@ -41,10 +29,9 @@ border:10px solid #000;
                                 <li><img src="<?php echo $baseurl; ?>assets/images/fruits6.jpg" /></li>
                                 <li><img src="<?php echo $baseurl; ?>assets/images/fruits7.jpg" /></li>
                                 <li><img src="<?php echo $baseurl; ?>assets/images/fruits8.jpg" /></li>
-
                             </ul>
                         </div>
-<!--                        <div class="photocradle" style="width:450px;height:270px;"></div>-->
+                     
                     </article>
                     <article class="grid_6">
                         <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>

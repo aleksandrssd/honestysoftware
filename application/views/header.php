@@ -11,6 +11,21 @@
         <!-- for Tab show -->
         <link type="text/css" rel="stylesheet" href="<?php echo $baseurl; ?>assets/css/responsive-tabs.css" />
         <link type="text/css" rel="stylesheet" href="<?php echo $baseurl; ?>assets/css/styleTab.css" />
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $baseurl; ?>assets/css/slider.css">       
+        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/home-slider01.js"></script>
+        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/home-slider02.js"></script>
+        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/scripts.js"></script>
+        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/html5shiv.js"></script>
+        <script>
+            $(function() {
+                $( 'ul.sf-menu li' ).on( 'click', function() {
+                    $( this ).parent().find( 'li.current' ).removeClass( 'current' );
+                    $( this ).addClass( 'current' );
+                });
+            });
+        </script>
+        
         <!-- /for Tab show -->
         <!--[if lt IE 8]>
            <div style=' clear: both; text-align:center; position: relative;'>
@@ -24,15 +39,7 @@
                 <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
             <![endif]-->
         <!-- for slide show -->
-<!--        <link type="text/css" rel="stylesheet" media="all" href="<?php echo $baseurl; ?>assets/skins/darkglass/skin.css" />
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/jquery-1.6.1.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/photocradle.core.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/photocradle.preview.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/photocradle.thumbnails.v2.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/photocradle.original.js"></script>
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/devel/photocradle.preload.js"></script>-->
-        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-1.8.2.min.js"></script> 
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/tiksluscarousel.js"></script>
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/rainbow.min.js"></script>
         <link rel="stylesheet" href="<?php echo $baseurl; ?>assets/css/normalize.css" />
@@ -46,7 +53,7 @@
             <div class="container_12"> 
                 <!--==============================header=================================-->
                 <header>
-                    <h1><a class="logo" style="font-family: ClarendonLTStdLight" href="<?php echo site_url('home'); ?>">H-S</a></h1>                  
+                    <a href="<?php echo site_url('home'); ?>"><img src="<?php echo $baseurl;?>assets/images/logo.png" height="60"/></a>
                     <nav>
                         <ul class="sf-menu">
                             <li class="current"><a href="<?php echo site_url('home'); ?>">Home</a></li>

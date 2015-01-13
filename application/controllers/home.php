@@ -14,30 +14,35 @@ class Home extends CI_Controller {
     public function aboutus() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "About us";
+        $this->load->view('header', $data);
         $this->load->view('about', $data);
     }
 
     public function hosting() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Domain hosting  | Price";
+        $this->load->view('header', $data);
         $this->load->view('pricing-fourcol', $data);
     }
 
     public function threecolumn() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Domain hosting  | Price";
+        $this->load->view('header', $data);
         $this->load->view('pricing-threecol', $data);
     }
 
     public function blog() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Blog";
+        $this->load->view('header', $data);
         $this->load->view('blog', $data);
     }
 
     public function services() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Our services";
+        $this->load->view('header', $data);
         $this->load->view('services', $data);
     }
 
@@ -45,18 +50,21 @@ class Home extends CI_Controller {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Contact with us";
         $data['saved'] = '';
+        $this->load->view('header', $data);
         $this->load->view('contact', $data);
     }
 
     public function projectfourcol() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
         $this->load->view('project-fourcol', $data);
     }
 
     public function projectthreecol() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
         $this->load->view('project-threecol', $data);
     }
 

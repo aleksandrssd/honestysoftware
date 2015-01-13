@@ -60,7 +60,7 @@
 
     </div>
 </div>
-<script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-1.8.2.min.js"></script> 
+<!--<script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-1.8.2.min.js"></script> -->
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/superfish.js"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery.responsivemenu.js"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery.flexslider.js"></script> 
@@ -71,9 +71,9 @@
 <script src="<?php echo $baseurl; ?>assets/js/touchTouch.jquery.js" type="text/javascript"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-ui-1.8.24.custom.min.js"></script> 
 <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/script.js"></script>
-<!--<script src="js/jquery-2.1.0.min.js"></script>-->
+<!-- for tab in portfoleo project page -->
 <script src="<?php echo $baseurl; ?>assets/js/jquery.responsiveTabs.js" type="text/javascript"></script>
-
+<!-- for tab in portfoleo project page -->
 <script type="text/javascript">
 $(document).ready(function() {
     $('#horizontalTab').responsiveTabs({

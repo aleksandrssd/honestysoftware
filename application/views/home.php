@@ -30,7 +30,7 @@
             <div class="container_12"> 
                 <!--==============================header=================================-->
                 <header class="homepage">
-                    <h1><a class="logo" style="font-family: ClarendonLTStdLight" href="<?php echo site_url('home'); ?>">H-S</a></h1>
+                    <a href="<?php echo site_url('home'); ?>"><img src="<?php echo $baseurl;?>assets/images/logo.png" height="60"/></a>
                     <nav>
                         <ul class="sf-menu">
                             <li class="current"><a href="<?php echo site_url('home'); ?>">Home</a></li>
