@@ -16,10 +16,10 @@
                     <div class="hello_box"> We love working with clients who love to standout from the crowd. </div>
                 </article>
                 <span style="float: right">
-                    <select name="price_table" onchange="return loadUrl(this.value);">                                
+<!--                    <select name="price_table" onchange="return loadUrl(this.value);">                                
                         <option value="four">Four Column</option>
                         <option value="three">Three Column</option>
-                    </select>
+                    </select>-->
                 </span>
             </div>
             <div class="wrapper projects">

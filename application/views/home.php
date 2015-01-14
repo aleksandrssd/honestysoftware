@@ -141,19 +141,19 @@
                         <div class="grid_9">
                             <div id="home-services">
                                 <div class="grid_3">
-                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/plan.png" alt="Plan">
+                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/sol-ico1.png" alt="Plan">
                                         <div class="title">1. Plan </div>
-                                        This phase is the main focus of the project managers and stake holders.After requirement gathering these requirements are analyzed for their validity and the possibility of incorporating the requirements in the system to be development. <br>
+                                        This phase is the main focus of the project managers and stake holders. After requirement gathering these requirements are analyzed for their validity and the possibility of incorporating the requirements in the system to be development. <br>
                                     </div>
                                 </div>
                                 <div class="grid_3">
-                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/design.png" alt="Design">
+                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/sol-ico2.png" alt="Design">
                                         <div class="title">2. Design</div>
                                         In this phase the system and software design is prepared from the requirement specifications which were studied in the first phase. System Design helps in specifying hardware and system requirements and also helps in defining overall system architecture.   <br>
                                     </div>
                                 </div>
                                 <div class="grid_3 last-col">
-                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/prototype.png" alt="Prototype">
+                                    <div class="offer"> <img src="<?php echo $baseurl; ?>assets/images/sol-ico3.png" alt="Prototype">
                                         <div class="title">3. Prototype</div>
                                         Software prototyping is becoming very popular as a software development model, as it enables to understand customer requirements at an early stage of development.     <br>
                                     </div>
@@ -181,7 +181,7 @@
                 </section>
             </div>
         </div>
-        <div class="featured_block">
+        <div class="featured_block" id="bgimages">
             <div class="container_12">
                 <section class="content">
                     <div class="wrapper featured_work">

@@ -45,6 +45,13 @@ class Home extends CI_Controller {
         $this->load->view('header', $data);
         $this->load->view('services', $data);
     }
+    
+    public function process() {
+        $data['baseurl'] = $this->config->item('base_url');
+        $data['title'] = "Our Process";
+        $this->load->view('header', $data);
+        $this->load->view('process', $data);
+    }
 
     public function contact() {
         $data['baseurl'] = $this->config->item('base_url');

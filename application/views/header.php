@@ -3,7 +3,7 @@
     <head>
         <title><?php echo $title; ?></title>
         <meta charset="utf-8">
-        <link rel="icon" href="<?php echo $baseurl; ?>assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="<?php echo $baseurl; ?>assets/images/favicon.png" type="image/x-icon" />
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $baseurl; ?>assets/css/style.css">
         <link href="<?php echo $baseurl; ?>assets/css/touchTouch.css" rel="stylesheet" type="text/css" />
@@ -11,7 +11,7 @@
         <!-- for Tab show -->
         <link type="text/css" rel="stylesheet" href="<?php echo $baseurl; ?>assets/css/responsive-tabs.css" />
         <link type="text/css" rel="stylesheet" href="<?php echo $baseurl; ?>assets/css/styleTab.css" />
-        
+
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $baseurl; ?>assets/css/slider.css">       
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/home-slider01.js"></script>
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/home-slider02.js"></script>
@@ -19,13 +19,13 @@
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/html5shiv.js"></script>
         <script>
             $(function() {
-                $( 'ul.sf-menu li' ).on( 'click', function() {
-                    $( this ).parent().find( 'li.current' ).removeClass( 'current' );
-                    $( this ).addClass( 'current' );
+                $('ul.sf-menu li').on('click', function() {
+                    $(this).parent().find('li.current').removeClass('current');
+                    $(this).addClass('current');
                 });
             });
         </script>
-        
+
         <!-- /for Tab show -->
         <!--[if lt IE 8]>
            <div style=' clear: both; text-align:center; position: relative;'>
@@ -53,12 +53,18 @@
             <div class="container_12"> 
                 <!--==============================header=================================-->
                 <header>
-                    <a href="<?php echo site_url('home'); ?>"><img src="<?php echo $baseurl;?>assets/images/logo.png" height="60"/></a>
+                    <a href="<?php echo site_url('home'); ?>"><img src="<?php echo $baseurl; ?>assets/images/logo.png" height="60"/></a>
                     <nav>
                         <ul class="sf-menu">
                             <li class="current"><a href="<?php echo site_url('home'); ?>">Home</a></li>
                             <li><a href="<?php echo site_url('home/aboutus'); ?>">About us</a></li>
-                            <li><a href="<?php echo site_url('home/services'); ?>">Services</a></li>
+                            <li>
+                                <a href="javascript:">Services</a>
+                                <ul>
+                                    <li><a href="<?php echo site_url('home/services'); ?>">Services</a></li>
+                                    <li><a href="<?php echo site_url('home/process'); ?>">Our Process</a></li>
+                                </ul>
+                            </li>
                             <li><a href="<?php echo site_url('home/hosting'); ?>">Hosting</a></li>
                             <li><a href="<?php echo site_url('home/projectfourcol'); ?>">Portfolio</a></li>                                                       
                             <li><a href="<?php echo site_url('home/blog'); ?>">Blog</a></li>          

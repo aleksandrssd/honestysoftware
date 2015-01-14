@@ -372,9 +372,13 @@ h2.ind2 {
     float: right;
 }
 .hello_box {
-    font-size: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2355a3;
+    font-family: sans-serif;
+    /*  font-size: 22px;*/
     line-height: 34px;
-    color: #12212f;
+    /*  color: #12212f;*/
     text-align: justify;
     margin-bottom: 28px;
     /*font-family: "ClarendonLTStdLight"*/
@@ -392,9 +396,13 @@ Home
     margin-bottom: 31px;
 }
 .offer .title {
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2355a3;
+    font-family: sans-serif;
+    /*    font-size: 25px;*/
     line-height: 29px;
-    color: #12212f;
+    /*    color: #12212f;*/
     margin-bottom: 16px;
     text-transform: uppercase;
 }
@@ -1837,4 +1845,25 @@ input[type="submit"] {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     cursor: pointer;
+}
+#bgimages{
+    background:transparent url(../images/wrapper-bg2.jpg);   //change fahmid for login bgimages
+    background-repeat: no-repeat;
+}
+#headingtitle{
+    font-weight: bold;
+    font-size: 25px;
+    color: #2355a3;
+    font-family: sans-serif;
+}
+.img1 h4, .img2 h4, .img3 h4, .img4 h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2355a3;
+    font-family: sans-serif;
+}
+h4{
+    font-weight: 700;
+    color: #2355a3;
+    font-family: sans-serif;
 }

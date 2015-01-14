@@ -1,7 +1,7 @@
 <!--SLIDER-->
 <section class="innerpages">
     <div class="grid_12">                       
-        <h1>about us</h1>
+        <h1>About us</h1>
     </div>
 </section>
 <!--SLIDER_END--> 
@@ -42,26 +42,42 @@
 <div class="block2">
     <div class="container_12">               
         <div class="wrapper">
-            <h2><a href="#" class="arrowlink"></a> WE ARE EXPERT IN</h2>
-            <center>
-                <article class="grid_12">                           
-                    <span style="margin: 20px">
+            <div style="margin-top: 20px">
+                <h2><a href="#" class="arrowlink"></a> WE ARE EXPERT IN</h2>
+
+                <article class="grid_12" style="margin-bottom: 15px;">                           
+                    <span style="margin: 1px">
                         <img src="<?php echo $baseurl; ?>assets/images/php.png"/>                              
                     </span>
-                    <span style="margin: 20px">
+                    <span style="margin: 1px">
                         <img src="<?php echo $baseurl; ?>assets/images/mysql.png"/>
                     </span>
-                    <span style="margin: 20px">
+                    <span style="margin: 1px">
                         <img src="<?php echo $baseurl; ?>assets/images/javascript.png"/>
                     </span>
-                    <span style="margin: 20px">
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/jquery.jpg"/>
+                    </span>                    
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/wordpress.jpg"/>
+                    </span>
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/jomla.jpg"/>
+                    </span>
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/opencart.jpg"/>
+                    </span>
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/laravel.png"/>
+                    </span>
+                    <span style="margin: 1px">
+                        <img src="<?php echo $baseurl; ?>assets/images/codeigniter.jpg"/>
+                    </span>
+                    <span style="margin: 1px">
                         <img src="<?php echo $baseurl; ?>assets/images/android.png"/>
                     </span>
-                    <span style="margin: 20px">
-                        <img src="<?php echo $baseurl; ?>assets/images/wordpress.png"/>
-                    </span>                      
                 </article>
-            </center>
+            </div>
         </div>               
     </div>
 </div>
@@ -70,7 +86,7 @@
         <section class="content">
             <div class="wrapper our_team">
                 <article class="grid_12">
-                    <h2>Meet our workforce</h2>
+                    <h2>Meet our workforce Team</h2>
                     <p>Some of our talent which are really dedicated to honesty software for customer satisfaction </p>
                     <article class="grid_3 alpha">
                         <center>
@@ -145,19 +161,7 @@
                         </center> 
                         <img src="<?php echo $baseurl; ?>assets/images/mahsin.jpg" height="262" width="228" alt="Team" /><a href="https://www.facebook.com/riaydh?fref=ts" class="arrowlink">Facebook</a>
                         <div class="team_skills">
-                            <div class="member-skill" data-percent="70" data-label="HTML5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="48" data-label="CSS3"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="38" data-label="jQuery"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="50" data-label="PHP5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="60" data-label="SQL"></div>
+                            I completed my B.Sc(Hons) from National University of Bangladesh major in Computer Science & Engineering.I primarily use PHP, but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable developing on the frontend or backend as well as setting up or managing infrastructure.
                         </div>
                     </article>
                     <article class="grid_3 "> 
@@ -168,19 +172,7 @@
                         </center> 
                         <img src="<?php echo $baseurl; ?>assets/images/fahmid.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/fahmidal.masud" class="arrowlink">Facebook</a>
                         <div class="team_skills">
-                            <div class="member-skill" data-percent="90" data-label="HTML5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="50" data-label="CSS3"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="40" data-label="jQuery"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="60" data-label="PHP5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="40" data-label="SQL"></div>
+                            I have completed my B.Sc in Computer Science and Engineering from East West University. I've been working on Web Design and Development about Two years and my expertise with MySQL, PHP, JavaScript, Jquery, Ajax, and CSS often allows me to create more powerful applications on the web.
                         </div>
                     </article>
                     <article class="grid_3 ">
@@ -191,19 +183,7 @@
                         </center> 
                         <img src="<?php echo $baseurl; ?>assets/images/shahadat.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/Shahadat.CSE?fref=hovercard" class="arrowlink">Facebook</a>
                         <div class="team_skills">
-                            <div class="member-skill" data-percent="90" data-label="HTML5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="98" data-label="CSS3"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="78" data-label="jQuery"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="65" data-label="PHP5"></div>
-                        </div>
-                        <div class="team_skills">
-                            <div class="member-skill" data-percent="60" data-label="SQL"></div>
+                            I would like to work on Web Design and Development.I am always promising to fulfill my client dream and provide excellent service! Recently, I am working on PHP, MySql, HTML, CSS, jQuery, JavaScript, Ajax and CodeIgniter framework. I have also good knowledge on Adobe tools like Adobe Photoshop, Adobe Dreamweaber CS6, Adobe Flash.
                         </div>
                     </article>
                     <!--                            <article class="grid_3 omega">
@@ -223,22 +203,22 @@
     </div>
 </div>
 
-<div class="block2">
+<!--<div class="block2">
     <div class="container_12">
         <section class="content">
             <div class="wrapper">
                 <article class="grid_12">
-                    <h2 class="clearfix"> <span class="f_left">Featured Work</span> <a id="next" class="next"></a> <a id="prev" class="prev"></a> </h2>
+                    <h2 class="clearfix"> <span class="f_left">Featured Work</span> <a id="next" class="next"></a> <a id="prev" class="prev"></a></h2>
                     <div class="projects-carousel-wrapper">
                         <ul id="projects-carousel">
                             <li class="grid_3 project-item">
                                 <a href="javascript:">
                                     <img src="<?php echo $baseurl; ?>assets/images/project-details.jpg" alt="Featured"></a>
                                 <span class="zoom-icon" style="bottom: 100%;">
-                                    <a href="<?php echo $baseurl; ?>assets/images/project-details.jpg" class="touch-item"></a>
+                                    <a href="<?php echo site_url('portfolio/project1'); ?>" class="touch-item"></a>
                                 </span> 
                                 <span class="zoom-link" style="top: 100%;">
-                                    <a href="project-details.html">Details</a>
+                                    <a href="<?php echo site_url('portfolio/project1'); ?>">Details</a>
                                 </span> 
                                 <span class="zoom-bg" style="opacity: 0; "></span>
                             </li>
@@ -246,10 +226,10 @@
                                 <a href="javascript:">
                                     <img src="<?php echo $baseurl; ?>assets/images/project-details9.jpg" alt="Featured"></a> 
                                 <span class="zoom-icon" style="bottom: 100%;">
-                                    <a href="<?php echo $baseurl; ?>assets/images/project-details9.jpg" class="touch-item"></a>
+                                    <a href="<?php echo site_url('portfolio/project2'); ?>" class="touch-item"></a>
                                 </span>
                                 <span class="zoom-link" style="top: 100%;">
-                                    <a href="project-details.html">Details</a>
+                                    <a href="<?php echo site_url('portfolio/project2'); ?>">Details</a>
                                 </span> 
                                 <span class="zoom-bg" style="opacity: 0; "></span> 
                             </li>
@@ -313,7 +293,7 @@
             </div>
         </section>
     </div>
-</div>
+</div>-->
 <div class="block3"> 
     <!--==============================footer=================================-->
     <div class="container_12">

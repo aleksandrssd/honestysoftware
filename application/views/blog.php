@@ -14,7 +14,7 @@
             <div class="wrapper">                        
                 <div class="row clearfix">                            
                     <article class="grid_9">
-                        <h2>Our Process</h2>                                
+                        <h1 id="headingtitle">Our Process</h1>                              
                         <ul class="our_process">
                             <li class="img1">
                                 <h4>Friday, October 10, 2014</h4>
