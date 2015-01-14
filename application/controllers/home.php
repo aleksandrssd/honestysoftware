@@ -45,7 +45,7 @@ class Home extends CI_Controller {
         $this->load->view('header', $data);
         $this->load->view('services', $data);
     }
-    
+
     public function process() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Our Process";
@@ -56,6 +56,15 @@ class Home extends CI_Controller {
     public function contact() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Contact with us";
+        $name = $this->input->post('name');
+        $phn = $this->input->post('phone');
+        $email = $this->input->post('email');
+        $data['name'] = $name;
+        $data['phn'] = $phn;
+        $data['email'] = $email;
+        $this->session->set_userdata('name', $name);
+        $this->session->set_userdata('phn', $phn);
+        $this->session->set_userdata('email', $email);
         $data['saved'] = '';
         $this->load->view('header', $data);
         $this->load->view('contact', $data);
@@ -91,8 +100,8 @@ class Home extends CI_Controller {
         $this->email->message($msg . $phn);
         $relt = $this->email->send();
         $saved = "Your mail sent successfully. Thank you for contact with us";
-        $this->session->set_userdata('saved',$saved);
-		
+        $this->session->set_userdata('saved', $saved);
+        $this->load->view('header', $data);
         $this->load->view('contact', $data);
     }
 

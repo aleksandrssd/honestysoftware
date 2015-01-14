@@ -49,7 +49,8 @@ body {
     -webkit-text-size-adjust: none;
 }
 p {
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    text-align: justyfy;
 }
 .p2 {
     margin-bottom: 17px;
@@ -410,7 +411,7 @@ Home
     margin-bottom: 0px !important;
 }
 .featured_block {
-    background: #e35845;
+    background: #FFF;
 }
 .featured_block h2 {
     color: #fff;
@@ -743,7 +744,8 @@ Our Team
 }
 .team_skills {
     /*    margin-top: 24px;*/
-    color: #fff;
+    color: #333;
+    font-family: sans-serif;
 }
 /*
 Project filter

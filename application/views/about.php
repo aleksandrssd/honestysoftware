@@ -86,15 +86,15 @@
         <section class="content">
             <div class="wrapper our_team">
                 <article class="grid_12">
-                    <h2>Meet our workforce Team</h2>
-                    <p>Some of our talent which are really dedicated to honesty software for customer satisfaction </p>
+                    <h1 style="color: #333">Meet our workforce Team</h1>
+                    <p style="color: #333">Some of our talent which are really dedicated to honesty software for customer satisfaction </p>
                     <article class="grid_3 alpha">
                         <center>
-                            <span style="color: white;font-weight: bold">Yousuf<br/>
+                            <span style="color: #333 ;font-weight: bold">Yousuf<br/>
                                 Web Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/yousuf.jpg" alt="Team" /> <a href="https://www.linkedin.com/profile/view?id=218083396&trk=nav_responsive_tab_profile_pic" class="arrowlink">Linkedin</a>&nbsp; <a href="http://facebook.com/yousufcse06" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/yousuf.jpg" alt="Team" /> <a style="color: #2355a3" href="https://www.linkedin.com/profile/view?id=218083396&trk=nav_responsive_tab_profile_pic" class="arrowlink">Linkedin</a>&nbsp; <a style="color: #2355a3" href="http://facebook.com/yousufcse06" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             <div class="member-skill" data-percent="90" data-label="HTML5"></div>
                         </div>
@@ -113,11 +113,11 @@
                     </article>
                     <article class="grid_3 "> 
                         <center>
-                            <span style="color: white;font-weight: bold">Sajid<br/>
+                            <span style="color: #333 ;font-weight: bold">Sajid<br/>
                                 Android Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/sajid.jpg" alt="Team" /> <a href="https://www.facebook.com/sajid.shaon" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/sajid.jpg" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/sajid.shaon" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             <div class="member-skill" data-percent="90" data-label="SQL Lite"></div>
                         </div>
@@ -130,18 +130,18 @@
                     </article>
                     <article class="grid_3 ">
                         <center>
-                            <span style="color: white;font-weight: bold">MD AL SHAYOKH<br/>
+                            <span style="color: #333 ;font-weight: bold">MD AL SHAYOKH<br/>
                                 Business Analyst
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/shyaokh.jpg" alt="Team" /> <a href="https://www.facebook.com/shayokh" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/shyaokh.jpg" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/shayokh" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             -RF Based Wi-Fi Indoor Positioning System based on IEEE 802.11n standard TP-LINK 150  Mbps Wireless Router using RSSI (Multilateration method, Fingerprint Method)    </div>
 
                     </article>
                     <article class="grid_3 omega">
                         <center>
-                            <span style="color: white;font-weight: bold">Mahdi H. Miraz<br/>
+                            <span style="color: #333;font-weight: bold">Mahdi H. Miraz<br/>
                                 Adviser
                             </span>
                         </center> 
@@ -155,33 +155,33 @@
                 <article class="grid_12">
                     <article class="grid_3 alpha">
                         <center>
-                            <span style="color: white;font-weight: bold">MD. Mahsin -Ul -Islam<br/>
+                            <span style="color: #333;font-weight: bold">MD. Mahsin -Ul -Islam<br/>
                                 Web Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/mahsin.jpg" height="262" width="228" alt="Team" /><a href="https://www.facebook.com/riaydh?fref=ts" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/mahsin.jpg" height="262" width="228" alt="Team" /><a style="color: #2355a3" href="https://www.facebook.com/riaydh?fref=ts" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             I completed my B.Sc(Hons) from National University of Bangladesh major in Computer Science & Engineering.I primarily use PHP, but picking up a new framework or language isn't a problem. I have extensive programming experience and I'm comfortable developing on the frontend or backend as well as setting up or managing infrastructure.
                         </div>
                     </article>
                     <article class="grid_3 "> 
                         <center>
-                            <span style="color: white;font-weight: bold">Fahmid Al Masud<br/>
+                            <span style="color: #333;font-weight: bold">Fahmid Al Masud<br/>
                                 Web Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/fahmid.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/fahmidal.masud" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/fahmid.jpg" height="262" width="228" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/fahmidal.masud" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             I have completed my B.Sc in Computer Science and Engineering from East West University. I've been working on Web Design and Development about Two years and my expertise with MySQL, PHP, JavaScript, Jquery, Ajax, and CSS often allows me to create more powerful applications on the web.
                         </div>
                     </article>
                     <article class="grid_3 ">
                         <center>
-                            <span style="color: white;font-weight: bold">Shahadat Hossain<br/>
+                            <span style="color: #333;font-weight: bold">Shahadat Hossain<br/>
                                 Android Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/shahadat.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/Shahadat.CSE?fref=hovercard" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/shahadat.jpg" height="262" width="228" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/Shahadat.CSE?fref=hovercard" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             I would like to work on Web Design and Development.I am always promising to fulfill my client dream and provide excellent service! Recently, I am working on PHP, MySql, HTML, CSS, jQuery, JavaScript, Ajax and CodeIgniter framework. I have also good knowledge on Adobe tools like Adobe Photoshop, Adobe Dreamweaber CS6, Adobe Flash.
                         </div>

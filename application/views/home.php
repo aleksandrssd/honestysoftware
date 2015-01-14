@@ -55,7 +55,7 @@
                             <!-- FADE -->
                             <li data-transition="fade">
                                 <img src="<?php echo $baseurl; ?>assets/images/hp-sldr-1_0.jpg" alt="">
-                                <div class="caption lft" data-x="700" data-y="70" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/html5.png" alt="" width="256" /></div>
+<!--                                <div class="caption lft" data-x="700" data-y="70" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/html5.png" alt="" width="256" /></div>
 
                                 <div class="caption sfl big_orange_bg" data-x="10" data-y="40" data-speed="600" data-start="2000" data-easing="easeOutExpo">Built with HTML5 for</div>
                                 <div class="caption sfl big_blue_bg" data-x="10" data-y="170" data-speed="600" data-start="2500" data-easing="easeOutExpo">
@@ -68,12 +68,12 @@
 
                                 <div class="caption sfl big_blue_bg" data-x="10" data-y="310" data-speed="600" data-start="2900" data-easing="easeOutExpo">
                                     YOU!
-                                </div>
+                                </div>-->
                             </li>
 
                             <li data-transition="fade">
                                 <img src="<?php echo $baseurl; ?>assets/images/hp-sldr-2.jpg" alt="">
-                                <div class="caption lft" data-x="700" data-y="70" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/android.png" alt="" width="256" /></div>
+<!--                                <div class="caption lft" data-x="700" data-y="70" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/android.png" alt="" width="256" /></div>
 
                                 <div class="caption sfl big_orange_bg" data-x="10" data-y="40" data-speed="600" data-start="2000" data-easing="easeOutExpo">Built Android Application</div>
                                 <div class="caption sfl big_blue_bg" data-x="10" data-y="170" data-speed="600" data-start="2500" data-easing="easeOutExpo">
@@ -86,36 +86,36 @@
 
                                 <div class="caption sfl big_blue_bg" data-x="10" data-y="310" data-speed="600" data-start="2900" data-easing="easeOutExpo">
                                     YOU!
-                                </div>
+                                </div>-->
                             </li>
 
                             <!-- SLIDELEFT -->
                             <li data-transition="slideright"> <img src="<?php echo $baseurl; ?>assets/images/hp-sldr-3_1.jpg" alt="" />
-                                <div class="caption lft" data-x="700" data-y="60" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/responsive.png" alt="" width="256" /></div>
+<!--                                <div class="caption lft" data-x="700" data-y="60" data-speed="900" data-start="900" data-easing="easeOutExpo"><img src="<?php echo $baseurl; ?>assets/images/responsive.png" alt="" width="256" /></div>
                                 <div class="caption lfr big_yellow_bg" data-x="10" data-y="50" data-speed="300" data-start="1600" data-easing="easeOutExpo">Super Corporate</div>
                                 <div class="caption sfl small_white_bg" data-x="10" data-y="200" data-speed="300" data-start="1800" data-easing="easeOutExpo">Clean, Creative & Eye Catching</div>
                                 <div class="caption sfr small_white_bg" data-x="10" data-y="250" data-speed="300" data-start="2000" data-easing="easeOutExpo">Fully Responsive & Optimized For All Screens</div>
-                                <div class="caption sfl small_white_bg" data-x="10" data-y="300" data-speed="300" data-start="2200" data-easing="easeOutExpo">Well Commented & Documented</div>
+                                <div class="caption sfl small_white_bg" data-x="10" data-y="300" data-speed="300" data-start="2200" data-easing="easeOutExpo">Well Commented & Documented</div>-->
 
                             </li>
 
                             <!-- SLIDERIGHT -->
                             <li data-transition="slideleft"> <img src="<?php echo $baseurl; ?>assets/images/hp-sldr-4.jpg" alt="" />
-                                <div class="caption lft boxshadow" data-x="10" data-y="50" data-speed="900" data-start="1300" data-easing="easeOutExpo">
+<!--                                <div class="caption lft boxshadow" data-x="10" data-y="50" data-speed="900" data-start="1300" data-easing="easeOutExpo">
                                     <iframe src="http://player.vimeo.com/video/4870899?title=0&amp;color=ff5050"  width="630" height="350" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                                 </div>
                                 <div class="caption lfr big_black_bg" data-x="700" data-y="50" data-speed="300" data-start="1600" data-easing="easeOutExpo">Video Tutorials</div>
                                 <div class="caption lfb small_black_bg" data-x="700" data-y="130" data-speed="300" data-start="1800" data-easing="easeOutExpo">Use your training videos <br/>in the banner to get user notice</div>
-                                <div class="caption lfb" data-x="700" data-y="210" data-speed="300" data-start="1800" data-easing="easeOutExpo"><a href="#" class="button large">Watch Video Training Now</a></div>
+                                <div class="caption lfb" data-x="700" data-y="210" data-speed="300" data-start="1800" data-easing="easeOutExpo"><a href="#" class="button large">Watch Video Training Now</a></div>-->
                             </li>
 
 
                             <!-- SLIDEUP -->
                             <li data-transition="fade"> <img src="<?php echo $baseurl; ?>assets/images/software1.jpg" alt="" />
-                                <div class="caption lft" data-x="520" data-y="20" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="<?php echo $baseurl; ?>assets/images/clean.png" alt="" /></div>
+<!--                                <div class="caption lft" data-x="520" data-y="20" data-speed="900" data-start="500" data-easing="easeOutBack"><img src="<?php echo $baseurl; ?>assets/images/clean.png" alt="" /></div>
                                 <div class="caption lfb big_red_bg" data-x="0" data-y="50" data-speed="900" data-start="800" data-easing="easeOutSine">Cross Browser Compatible</div>
                                 <div class="caption lfb big_red_bg" data-x="0" data-y="150" data-speed="1100" data-start="1000" data-easing="easeOutSine">Super Clean Template</div>
-                                <div class="caption lfb big_red_bg" data-x="0" data-y="250" data-speed="1100" data-start="1200" data-easing="easeOutSine">Valid Markup</div>
+                                <div class="caption lfb big_red_bg" data-x="0" data-y="250" data-speed="1100" data-start="1200" data-easing="easeOutSine">Valid Markup</div>-->
                             </li>
                         </ul>
 
@@ -229,7 +229,7 @@
                             <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
                         </article>
                         <article class="grid_9">
-                            <form action="#" method="post" id="cform" name="cform" class="clearfix">
+                            <form action="<?php echo site_url('home/contact'); ?>" method="post" id="cform" name="cform" class="clearfix">
                                 <ul id="homehireus" class="hireform">
                                     <li>
                                         <label>Name:<span class="required">*</span></label>
@@ -244,7 +244,7 @@
                                         <input name="email" id="email" type="text" value="" tabindex="2">
                                     </li>
                                     <li>
-                                        <input type="button" id="send-message" value="Send Details To Us" tabindex="4">
+                                        <input type="submit" id="send-message" value="Send Details To Us" tabindex="4">
                                     </li>
                                 </ul>
                             </form>

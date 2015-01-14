@@ -42,15 +42,24 @@
                             <ul id="homehireus" class="hireform contactform">
                                 <li>
                                     <label>Name:<span class="required">*</span></label>
-                                    <input name="name" id="name" type="text" value="" tabindex="1" required>
+                                    <input name="name" id="name" type="text" value="<?php
+                                    if ($this->session->userdata('name')): echo $this->session->userdata('name');
+                                    endif;
+                                    ?>" tabindex="1" required>
                                 </li>
                                 <li>
                                     <label>Phone:</label>
-                                    <input name="phone" id="phone" type="text" value="" tabindex="3">
+                                    <input name="phone" id="phone" type="text" value="<?php
+                                    if ($this->session->userdata('phn')): echo $this->session->userdata('phn');
+                                    endif;
+                                    ?>" tabindex="3">
                                 </li>
                                 <li>
                                     <label>Email:<span class="required">*</span></label>
-                                    <input name="email" id="email" type="text" value="" tabindex="2" required>
+                                    <input name="email" id="email" type="text" value="<?php
+                                    if ($this->session->userdata('email')): echo $this->session->userdata('email');
+                                    endif;
+                                    ?>" tabindex="2" required>
                                 </li>
                                 <li>
                                     <label>Subject:<span class="required"></span></label>
@@ -58,12 +67,12 @@
                                 </li>
                                 <li>
                                     <input id="send-message" type="submit" value="Send Details To Us" tabindex="6"/>
-<?php
-if ($this->session->userdata('saved')):
-    echo '<div id="output" class="contactpage-msg ui-state-green ui-corner-all">' . $this->session->userdata('saved') . '</div>';
-    $this->session->unset_userdata('saved');
-endif;
-?>
+                                    <?php
+                                    if ($this->session->userdata('saved')):
+                                        echo '<div id="output" class="contactpage-msg ui-state-green ui-corner-all">' . $this->session->userdata('saved') . '</div>';
+                                        $this->session->unset_userdata('saved');
+                                    endif;
+                                    ?>
                                 </li>
                                 <li>
                                     <label>Message:<span class="required"></span></label>
