@@ -4,7 +4,7 @@
         <title><?php echo $title; ?></title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="<?php echo $baseurl; ?>assets/images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="<?php echo $baseurl; ?>assets/images/favicon.png" type="image/x-icon" />
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $baseurl; ?>assets/css/style.css">
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $baseurl; ?>assets/css/slider.css">
         <script type="text/javascript" src="<?php echo $baseurl; ?>assets/js/jquery-1.8.2.min.js"></script>
