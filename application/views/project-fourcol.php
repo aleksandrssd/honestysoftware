@@ -3,7 +3,7 @@
         border: 1px solid red;
     }
     .entry-title{
-        padding-top: 15px;
+        padding-top: 20px;
 
     }
 </style>

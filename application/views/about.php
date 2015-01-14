@@ -143,7 +143,7 @@
                                 Web Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/mahsin.jpg" height="262" width="228" alt="Team" /> <a href="https://www.linkedin.com/profile/view?id=218083396&trk=nav_responsive_tab_profile_pic" class="arrowlink">Linkedin</a>&nbsp; <a href="http://facebook.com/yousufcse06" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/mahsin.jpg" height="262" width="228" alt="Team" /><a href="https://www.facebook.com/riaydh?fref=ts" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             <div class="member-skill" data-percent="70" data-label="HTML5"></div>
                         </div>
@@ -166,7 +166,7 @@
                                 Web Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/fahmid.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/sajid.shaon" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/fahmid.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/fahmidal.masud" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             <div class="member-skill" data-percent="90" data-label="HTML5"></div>
                         </div>
@@ -186,10 +186,10 @@
                     <article class="grid_3 ">
                         <center>
                             <span style="color: white;font-weight: bold">Shahadat Hossain<br/>
-                                Web Professional
+                                Android Professional
                             </span>
                         </center> 
-                        <img src="<?php echo $baseurl; ?>assets/images/shahadat.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/shayokh" class="arrowlink">Facebook</a>
+                        <img src="<?php echo $baseurl; ?>assets/images/shahadat.jpg" height="262" width="228" alt="Team" /> <a href="https://www.facebook.com/Shahadat.CSE?fref=hovercard" class="arrowlink">Facebook</a>
                         <div class="team_skills">
                             <div class="member-skill" data-percent="90" data-label="HTML5"></div>
                         </div>
