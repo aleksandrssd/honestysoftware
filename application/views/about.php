@@ -136,7 +136,7 @@
                         </center> 
                         <img src="<?php echo $baseurl; ?>assets/images/shyaokh.jpg" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/shayokh" class="arrowlink">Facebook</a>
                         <div class="team_skills">
-                            Md al Shayokh: Md al shayokh completed his education from turkey and south korea.As a business analyst he deals with idea generation methods , developing business concept,  cost analysis and refurbishment of proposed model.    </div>
+                            Md Al shayokh completed his education from turkey and south korea.As a business analyst he deals with idea generation methods , developing business concept,  cost analysis and refurbishment of proposed model.    </div>
 
                     </article>
                     <article class="grid_3 omega">
