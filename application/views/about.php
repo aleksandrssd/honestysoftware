@@ -136,7 +136,7 @@
                         </center> 
                         <img src="<?php echo $baseurl; ?>assets/images/shyaokh.jpg" alt="Team" /> <a style="color: #2355a3" href="https://www.facebook.com/shayokh" class="arrowlink">Facebook</a>
                         <div class="team_skills">
-                            -RF Based Wi-Fi Indoor Positioning System based on IEEE 802.11n standard TP-LINK 150  Mbps Wireless Router using RSSI (Multilateration method, Fingerprint Method)    </div>
+                            Md al Shayokh: Md al shayokh completed his education from turkey and south korea.As a business analyst he deals with idea generation methods , developing business concept,  cost analysis and refurbishment of proposed model.    </div>
 
                     </article>
                     <article class="grid_3 omega">
