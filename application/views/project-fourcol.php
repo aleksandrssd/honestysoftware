@@ -248,6 +248,74 @@
                                 </span>
                             </span> 
                         </article>
+                        <article class="grid_3 project-item print">
+                            <a href="http://whitecall.ca/payme2/"><img src="<?php echo $baseurl; ?>assets/images/project-details13.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project13'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    Payme<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; ">
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details13.jpg" class="touch-item"></a>
+                                </span> 
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="http://whitecall.ca/payme2/">Details</a>
+                                </span>
+                            </span> 
+                        </article>
+                        <article class="grid_3 project-item applications">
+                            <a href="http://whitecall.ca/payme/"><img src="<?php echo $baseurl; ?>assets/images/project-details14.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project14'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    Payme Logs<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; "> 
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details14.jpg" class="touch-item"></a>
+                                </span>
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="http://whitecall.ca/payme/">Details</a>
+                                </span>
+                            </span> 
+                        </article>
+                        <article class="grid_3 project-item websites">
+                            <a href="http://crm.whitecall.ca/"><img src="<?php echo $baseurl; ?>assets/images/project-details15.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project15'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    CRM<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; ">
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details15.jpg" class="touch-item"></a>
+                                </span>
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="http://crm.whitecall.ca/">Details</a>
+                                </span>
+                            </span>
+                        </article>
+                        <article class="grid_3 project-item last websites"> 
+                            <a href="http://whitecall.ca/opcodemanager/"><img src="<?php echo $baseurl; ?>assets/images/project-details16.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project16'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    Opcode Manager<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; ">
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details16.jpg" class="touch-item"></a>
+                                </span>
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="http://whitecall.ca/opcodemanager/">Details</a>
+                                </span>
+                            </span> 
+                        </article>
                     </div>                            
                 </article>
             </div>

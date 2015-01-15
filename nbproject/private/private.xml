@@ -3,16 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/xampp/htdocs/honestysoftware/assets/css/responsive-tabs.css</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/assets/css/style.css</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/views/footer.php</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/assets/css/styleTab.css</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/assets/css/carousel.css</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/controllers/portfolio.php</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/views/header.php</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/views/portfolio/project1.php</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/views/project-fourcol.php</file>
-            <file>file:/E:/xampp/htdocs/honestysoftware/application/views/portfolio/project12.php</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/views/project-fourcol.php</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/controllers/home.php</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/views/contact.php</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/assets/css/style.css</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/views/header.php</file>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/views/home.php</file>
         </group>
     </open-files>
 </project-private>

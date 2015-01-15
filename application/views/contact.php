@@ -20,7 +20,7 @@
                 <div class="row clearfix">
                     <article class="grid_12">
                         <div class="gmap">
-                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden; padding-left: 10px; width:1100px;"><div id="gmap_canvas" style="width:940px; height:350px; padding-left: 10px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type="text/javascript"> function init_map() {
+                            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden; padding-left: 10px; width:1100px;"><div id="gmap_canvas" style="width:1140px; height:350px; padding-left: 10px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type="text/javascript"> function init_map() {
                                     var myOptions = {zoom: 14, center: new google.maps.LatLng(23.8074103, 90.3684121), mapTypeId: google.maps.MapTypeId.ROADMAP};
                                     map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
                                     marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(23.8074103, 90.3684121)});
@@ -66,7 +66,7 @@
                                     <input name="subject" id="subject" type="text" value="" tabindex="4">
                                 </li>
                                 <li>
-                                    <input id="send-message" type="submit" value="Send Details To Us" tabindex="6"/>
+                                    <input id="send-message" type="submit" value="Send Details To Us" tabindex="6" width="360px"/>
                                     <?php
                                     if ($this->session->userdata('saved')):
                                         echo '<div id="output" class="contactpage-msg ui-state-green ui-corner-all">' . $this->session->userdata('saved') . '</div>';

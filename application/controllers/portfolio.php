@@ -100,4 +100,36 @@ class Portfolio extends CI_Controller {
         $this->load->view('portfolio/project12', $data); 
         $this->load->view('footer', $data);
     }
+    
+    public function project13(){
+        $data['baseurl'] = $this->config->item('base_url');
+        $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
+        $this->load->view('portfolio/project13', $data); 
+        $this->load->view('footer', $data);
+    }
+    
+    public function project14(){
+        $data['baseurl'] = $this->config->item('base_url');
+        $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
+        $this->load->view('portfolio/project14', $data); 
+        $this->load->view('footer', $data);
+    }
+    
+    public function project15(){
+        $data['baseurl'] = $this->config->item('base_url');
+        $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
+        $this->load->view('portfolio/project15', $data); 
+        $this->load->view('footer', $data);
+    }
+    
+    public function project16(){
+        $data['baseurl'] = $this->config->item('base_url');
+        $data['title'] = "Completed projects";
+        $this->load->view('header', $data);
+        $this->load->view('portfolio/project16', $data); 
+        $this->load->view('footer', $data);
+    }
 }

@@ -35,7 +35,6 @@ class Home extends CI_Controller {
     public function blog() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Blog";
-        $this->load->view('header', $data);
         $this->load->view('blog', $data);
     }
 
