@@ -21,15 +21,15 @@
                     <article class="grid_6">
                         <div id="fruits">
                             <ul>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz1.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz2.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz3.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz4.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz5.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz1.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz2.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz3.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/yz4.jpg" /></li>
                             </ul>
                         </div>
 
@@ -47,7 +47,7 @@
                             </div>
                             <h3> + Skills Involved</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Framework : Codeigniter</li>
+                                    <li>Operating System : Android</li>
                                     <li>UI Technology : Google Web Toolkit (GWT), GXT</li>
                                     <li>Web Server : Apache Tomcat</li>
                                     <li>Database : Independent (Currently using MySQL)</li>
@@ -58,7 +58,7 @@
                             <h3> + Platform</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
                                     <li>Operating System (OS) Independent</li>
-                                    <li>Browser Independent</li>
+                                    <li>Android</li>
                                 </ul>
                             </div>
                         </div>
@@ -114,41 +114,6 @@
                             </div>
                         </div>
                     </div>
-                </article>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="hireus_block">
-    <div class="container_12">
-        <section class="">
-            <div class="wrapper">
-                <article class="grid_3">
-                    <h2>Impressed?<br/>
-                        want to hire us?</h2>
-                    <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
-                </article>
-                <article class="grid_9">
-                    <form action="#" method="post" id="cform" name="cform" class="clearfix">
-                        <ul id="homehireus" class="hireform">
-                            <li>
-                                <label>Name:<span class="required">*</span></label>
-                                <input name="name" id="name" type="text" value="" tabindex="1">
-                            </li>
-                            <li>
-                                <label>Phone:</label>
-                                <input name="phone" id="phone" type="text" value="" tabindex="3">
-                            </li>
-                            <li>
-                                <label>Email:<span class="required">*</span></label>
-                                <input name="email" id="email" type="text" value="" tabindex="2">
-                            </li>
-                            <li>
-                                <input type="button" id="send-message" value="Send Details To Wee" tabindex="4">
-                            </li>
-                        </ul>
-                    </form>
-                    <div id="output"></div>
                 </article>
             </div>
         </section>

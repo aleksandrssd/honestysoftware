@@ -22,14 +22,18 @@
                         <div id="fruits">
                             <ul>
                                 <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
-                                <li><img src="<?php echo $baseurl; ?>assets/images/project-details5.jpg" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye1.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye3.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye4.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye5.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye6.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye7.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye8.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye9.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye10.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye11.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye12.png" /></li>
+                                <li><img src="<?php echo $baseurl; ?>assets/images/vpseye13.png" /></li>
                             </ul>
                         </div>
 
@@ -39,15 +43,15 @@
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
+                                    <li>Whitecall Limited</li>
+                                    <li>Cloud IT Limited</li>
+                                    <li>Ctechuk Limited</li>
                                     <li>Cention</li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Framework : Codeigniter</li>
+                                    <li>Language : PHP</li>
                                     <li>UI Technology : Google Web Toolkit (GWT), GXT</li>
                                     <li>Web Server : Apache Tomcat</li>
                                     <li>Database : Independent (Currently using MySQL)</li>
@@ -114,41 +118,6 @@
                             </div>
                         </div>
                     </div>
-                </article>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="hireus_block">
-    <div class="container_12">
-        <section class="">
-            <div class="wrapper">
-                <article class="grid_3">
-                    <h2>Impressed?<br/>
-                        want to hire us?</h2>
-                    <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
-                </article>
-                <article class="grid_9">
-                    <form action="#" method="post" id="cform" name="cform" class="clearfix">
-                        <ul id="homehireus" class="hireform">
-                            <li>
-                                <label>Name:<span class="required">*</span></label>
-                                <input name="name" id="name" type="text" value="" tabindex="1">
-                            </li>
-                            <li>
-                                <label>Phone:</label>
-                                <input name="phone" id="phone" type="text" value="" tabindex="3">
-                            </li>
-                            <li>
-                                <label>Email:<span class="required">*</span></label>
-                                <input name="email" id="email" type="text" value="" tabindex="2">
-                            </li>
-                            <li>
-                                <input type="button" id="send-message" value="Send Details To Wee" tabindex="4">
-                            </li>
-                        </ul>
-                    </form>
-                    <div id="output"></div>
                 </article>
             </div>
         </section>

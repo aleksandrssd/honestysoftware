@@ -36,7 +36,7 @@
                                 <li><a href="#" data-filter=".print">Print</a></li>
                                 <li><a href="#" data-filter=".applications" >Application</a></li>
                                 <li><a href="#" data-filter=".wordpress">WordPress</a></li>
-                                <li><a href="#" data-filter=".content-writing">Content Writing</a></li>
+                                <li><a href="#" data-filter=".content-writing">Android</a></li>
                             </ul>
                         </h2>
                     </article>
@@ -129,23 +129,6 @@
                                 </span> 
                             </span> 
                         </article>
-                        <article class="grid_3 project-item content-writing">
-                            <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe"><img src="<?php echo $baseurl; ?>assets/images/project-details6.jpg" alt="Project 1"></a>
-                            <p class="entry-title">
-                                Web site:
-                                <a href="<?php echo site_url('portfolio/project6'); ?>" rel="bookmark" title="Cention COntact Center">
-                                    Video Frame<br/>
-                                </a>
-                            </p>
-                            <span class="zoom-bg" style="opacity: 0; ">
-                                <span class="zoom-icon" style="bottom: 100%;">
-                                    <a href="<?php echo $baseurl; ?>assets/images/project-details6.jpg" class="touch-item"></a>
-                                </span>
-                                <span class="zoom-link" style="top: 100%;">
-                                    <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe">Details</a>
-                                </span>
-                            </span> 
-                        </article>
                         <article class="grid_3 project-item print"> 
                             <a href="https://uk.ses-astra.com/18612988/uk"><img src="<?php echo $baseurl; ?>assets/images/project-details7.jpg" alt="Project 1"></a>
                             <p class="entry-title">
@@ -177,23 +160,6 @@
                                 </span>
                                 <span class="zoom-link" style="top: 100%;">
                                     <a href="https://pwcproject.com/v2/login">Details</a>
-                                </span>
-                            </span> 
-                        </article>
-                        <article class="grid_3 project-item print">
-                            <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2"><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" alt="Project 1"></a>
-                            <p class="entry-title">
-                                Web site:
-                                <a href="<?php echo site_url('portfolio/project9'); ?>" rel="bookmark" title="Cention COntact Center">
-                                    Pwc Store<br/>
-                                </a>
-                            </p>
-                            <span class="zoom-bg" style="opacity: 0; ">
-                                <span class="zoom-icon" style="bottom: 100%;">
-                                    <a href="<?php echo $baseurl; ?>assets/images/project-details9.jpg" class="touch-item"></a>
-                                </span> 
-                                <span class="zoom-link" style="top: 100%;">
-                                    <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2">Details</a>
                                 </span>
                             </span> 
                         </article>
@@ -316,42 +282,46 @@
                                 </span>
                             </span> 
                         </article>
+
                     </div>                            
-                </article>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="hireus_block">
-    <div class="container_12">
-        <section class="">
-            <div class="wrapper">
-                <article class="grid_3">
-                    <h2>Impressed?<br/>
-                        want to hire us?</h2>
-                    <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
-                </article>
-                <article class="grid_9">
-                    <form action="#" method="post" id="cform" name="cform" class="clearfix">
-                        <ul id="homehireus" class="hireform">
-                            <li>
-                                <label>Name:<span class="required">*</span></label>
-                                <input name="name" id="name" type="text" value="" tabindex="1">
-                            </li>
-                            <li>
-                                <label>Phone:</label>
-                                <input name="phone" id="phone" type="text" value="" tabindex="3">
-                            </li>
-                            <li>
-                                <label>Email:<span class="required">*</span></label>
-                                <input name="email" id="email" type="text" value="" tabindex="2">
-                            </li>
-                            <li>
-                                <input type="button" id="send-message" value="Send Details To Wee" tabindex="4">
-                            </li>
-                        </ul>
-                    </form>
-                    <div id="output"></div>
+                </article>              
+                <article class="row clearfix">
+                    <div class="projects-fourcols clearfix " id="projects">
+                        <article class="grid_3 project-item content-writing">
+                            <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe"><img src="<?php echo $baseurl; ?>assets/images/project-details6.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project6'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    Video Frame<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; ">
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details6.jpg" class="touch-item"></a>
+                                </span>
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="https://play.google.com/store/apps/details?id=honesty.android.videoframe">Details</a>
+                                </span>
+                            </span> 
+                        </article>
+                        <article class="grid_3 project-item print">
+                            <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2"><img src="<?php echo $baseurl; ?>assets/images/project-details93.jpg" alt="Project 1"></a>
+                            <p class="entry-title">
+                                Web site:
+                                <a href="<?php echo site_url('portfolio/project9'); ?>" rel="bookmark" title="Cention COntact Center">
+                                    Pwc Store<br/>
+                                </a>
+                            </p>
+                            <span class="zoom-bg" style="opacity: 0; ">
+                                <span class="zoom-icon" style="bottom: 100%;">
+                                    <a href="<?php echo $baseurl; ?>assets/images/project-details9.jpg" class="touch-item"></a>
+                                </span> 
+                                <span class="zoom-link" style="top: 100%;">
+                                    <a href="https://play.google.com/store/apps/details?id=honesty.android.call.password2">Details</a>
+                                </span>
+                            </span> 
+                        </article>
+                    </div>
                 </article>
             </div>
         </section>

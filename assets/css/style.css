@@ -115,13 +115,13 @@ strike {
     cursor: pointer;
 }
 #output {
-    background: #f1bcbc;
-    color: #dd3e3e;
+    background: #dff0d8;
+    color: #3c763d;
     padding: 5px;
     border-radius: 4px;
     height: 23px;
     width: 93%;
-    border: 1px solid #e19c9c;
+    border: 1px solid #dff0d8;
 }
 a {
     color: #E35845;
@@ -382,6 +382,7 @@ h2.ind2 {
     /*  color: #12212f;*/
     text-align: justify;
     margin-bottom: 28px;
+    padding: 10px;
     /*font-family: "ClarendonLTStdLight"*/
 }
 /*
@@ -1055,7 +1056,7 @@ Hire us
 }
 .contactpage-msg {
     margin-top: 10px;
-    width: 85% !important;
+    width: 70% !important;
 }
 .contactform li:last-child {
     margin-bottom: 0px;

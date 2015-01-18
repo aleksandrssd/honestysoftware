@@ -39,15 +39,16 @@
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
+                                    <li>Whitecall Limited</li>
+                                    <li>Cloud IT Limited</li>
+                                    <li>Ctechuk Limited</li>
                                     <li>Cention</li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
                                     <li>Framework : Codeigniter</li>
+                                    <li>Script : JavaScript, Jquery, Ajax</li>
                                     <li>UI Technology : Google Web Toolkit (GWT), GXT</li>
                                     <li>Web Server : Apache Tomcat</li>
                                     <li>Database : Independent (Currently using MySQL)</li>
@@ -74,7 +75,7 @@
                             </ul>
                             <div id="tab-1">
                                 <p>The place of work is as important as the work itself. Honesty Software is excited about headquartered at Bangladesh. This is how our work place looks like!
-                                    Honesty Software is a diverse end-to-end IT solution provider offering wide range of Mobile Application, web applications and also expert consultancy services. Our solutions enable companies to make their Application Lifecycle management and Project management easier and more efficient.</p>
+                                    Honesty Software is a diverse end-to-end IT solution provider offering wide range of Mobile Application, web applications and also expert consultancy services. Our solutions enable companies to make their Application Life cycle management and Project management easier and more efficient.</p>
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
@@ -85,16 +86,16 @@
                             </div>
                             <div id="tab-3">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>User get details Information, summery report and all Tranjection Information </li>
+                                    <li>User Can Sent Sms, TOP UP(recharge), CASH(send money), Free Sms</li>
                                     <li>Maintained financial year wise Non-development and annual development program budget and expenditure information</li>
-                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>
-                                    <li>Tracking all audit objection and settlement issues</li>
+                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>                                  
                                 </ul>
                             </div>
                         </div>
                     </article>
                 </div>
                 <article class="row clearfix">
-
                     <div class="projects-fourcols clearfix">
                         <div class="grid_12">
                             <h2 class="clearfix"> <span class="f_left">Related Projects</span> <a id="next" class="next"></a> <a id="prev" class="prev"></a> </h2>
@@ -114,41 +115,6 @@
                             </div>
                         </div>
                     </div>
-                </article>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="hireus_block">
-    <div class="container_12">
-        <section class="">
-            <div class="wrapper">
-                <article class="grid_3">
-                    <h2>Impressed?<br/>
-                        want to hire us?</h2>
-                    <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
-                </article>
-                <article class="grid_9">
-                    <form action="#" method="post" id="cform" name="cform" class="clearfix">
-                        <ul id="homehireus" class="hireform">
-                            <li>
-                                <label>Name:<span class="required">*</span></label>
-                                <input name="name" id="name" type="text" value="" tabindex="1">
-                            </li>
-                            <li>
-                                <label>Phone:</label>
-                                <input name="phone" id="phone" type="text" value="" tabindex="3">
-                            </li>
-                            <li>
-                                <label>Email:<span class="required">*</span></label>
-                                <input name="email" id="email" type="text" value="" tabindex="2">
-                            </li>
-                            <li>
-                                <input type="button" id="send-message" value="Send Details To Wee" tabindex="4">
-                            </li>
-                        </ul>
-                    </form>
-                    <div id="output"></div>
                 </article>
             </div>
         </section>

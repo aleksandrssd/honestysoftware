@@ -24,7 +24,7 @@
                     <a href="<?php echo site_url('home/contact'); ?>" class="arrowlink">Contact Now</a> </article>
                 <article class="grid_9">
                     <h1 id="headingtitle">Our Services</h1>
-                     <p>We love helping people. And we take pride in giving our clients an effective, high-quality product.</p>
+                    <p>We love helping people. And we take pride in giving our clients an effective, high-quality product.</p>
                     <div class="row clearfix">
                         <article class="grid_9 alpha">
                             <div class="feature">
@@ -93,27 +93,6 @@
                     </div>
                 </article>                       
                 <div class="clear"></div>
-                <div class="row clearfix">
-                    <article class="grid_12">
-                        <div class="quote-icon"><img src="<?php echo $baseurl; ?>assets/images/quote.png" alt="Quote"></div>
-                        <div class="pagination quotes-pagi" id="pager"> </div>
-                        <div class="quote">
-                            <div id="quotes">
-                                <p>We are delighted with the work done by HONESTY SOFTWARE. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. Not only do they provide solid, considered and inspired 
-                                    solutions that are a step ahead of the rest, but they really got involved with us on a 
-                                    personal level to ensure that we stay satisfied with results. </p>
-                                <p>We are delighted with the work done by honesty software. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. </p>
-                                <p>We are delighted with the work done by honesty software. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. Not only do they provide solid, considered and inspired 
-                                    solutions that are a step ahead of the rest, but they really got involved with us on a 
-                                    personal level to ensure that we stay satisfied with results. </p>
-                                <p>We are delighted with the work done by honesty software. </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
             </div>
         </section>
     </div>

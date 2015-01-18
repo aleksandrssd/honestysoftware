@@ -74,27 +74,6 @@
                     </article>
                 </div>
                 <div class="clear"></div>
-                <div class="row clearfix">
-                    <article class="grid_12">
-                        <div class="quote-icon"><img src="<?php echo $baseurl; ?>assets/images/quote.png" alt="Quote"></div>
-                        <div class="pagination quotes-pagi" id="pager"> </div>
-                        <div class="quote">
-                            <div id="quotes">
-                                <p>We are delighted with the work done by HONESTY SOFTWARE. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. Not only do they provide solid, considered and inspired 
-                                    solutions that are a step ahead of the rest, but they really got involved with us on a 
-                                    personal level to ensure that we stay satisfied with results. </p>
-                                <p>We are delighted with the work done by honesty software. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. </p>
-                                <p>We are delighted with the work done by honesty software. Their freshness, confidence and energy create a
-                                    wonderful, collaborative atmosphere. Not only do they provide solid, considered and inspired 
-                                    solutions that are a step ahead of the rest, but they really got involved with us on a 
-                                    personal level to ensure that we stay satisfied with results. </p>
-                                <p>We are delighted with the work done by honesty software. </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
             </div>
         </section>
     </div>

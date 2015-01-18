@@ -18,11 +18,11 @@ class Home extends CI_Controller {
         $this->load->view('about', $data);
     }
 
-    public function hosting() {
+    public function career() {
         $data['baseurl'] = $this->config->item('base_url');
-        $data['title'] = "Domain hosting  | Price";
+        $data['title'] = "Career";
         $this->load->view('header', $data);
-        $this->load->view('pricing-fourcol', $data);
+        $this->load->view('career', $data);
     }
 
     public function threecolumn() {
@@ -35,6 +35,7 @@ class Home extends CI_Controller {
     public function blog() {
         $data['baseurl'] = $this->config->item('base_url');
         $data['title'] = "Blog";
+        $this->load->view('header', $data);
         $this->load->view('blog', $data);
     }
 
