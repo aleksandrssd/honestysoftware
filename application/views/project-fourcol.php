@@ -1,7 +1,4 @@
 <style type="text/css">
-    #portfoleoborder{
-        border: 1px solid red;
-    }
     .entry-title{
         padding-top: 20px;
 
@@ -39,6 +36,12 @@
                                 <li><a href="#" data-filter=".content-writing">Android</a></li>
                             </ul>
                         </h2>
+                    </article>
+                </div>
+                <div class="row clearfix">
+                    <article class="grid_12">
+                        <div class="title"><h1>Web Application</h1></div>
+                        <hr style="border: 1px solid #c1c1c1">
                     </article>
                 </div>
                 <article class="row clearfix">
@@ -284,7 +287,13 @@
                         </article>
 
                     </div>                            
-                </article>              
+                </article> 
+                <div class="row clearfix">
+                    <article class="grid_12">
+                        <div class="title"><h1>Android Application</h1></div>
+                         <hr style="border: 1px solid #c1c1c1">
+                    </article>
+                </div>
                 <article class="row clearfix">
                     <div class="projects-fourcols clearfix " id="projects">
                         <article class="grid_3 project-item content-writing">
