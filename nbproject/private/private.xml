@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/D:/xampp/htdocs/honestysoftware/application/views/process.php</file>
+        </group>
+>>>>>>> b9a2ab97ab34fba7439dc136b7960ffd19966ae9
     </open-files>
 </project-private>
