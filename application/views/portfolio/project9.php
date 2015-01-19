@@ -35,14 +35,14 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "https://play.google.com/store/apps/details?id=honesty.android.call.password2" target="_blank">Pwc Store</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Whitecall Limited</li>
+                                    <li>Cloud IT Limited</li>
+                                    <li>Ctechuk Limited</li>
+                                    <li>Website : <a href = "https://play.google.com/store/apps/details?id=honesty.android.call.password2" target="_blank">Pwc Store</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -85,9 +85,9 @@
                             </div>
                             <div id="tab-3">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Maintained financial year wise Non-development and annual development program budget and expenditure information</li>
-                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>
-                                    <li>Tracking all audit objection and settlement issues</li>
+                                    <li>Set your password between 0 to 71</li>
+                                    <li>Add your numbers for what you want to set password.</li>
+                                    <li>When calls are coming from those numbers, password window will pop up and press your password button to take those phone calls.Two consecutively wrong password will end the call.</li>
                                 </ul>
                             </div>
                         </div>

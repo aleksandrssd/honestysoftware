@@ -35,14 +35,13 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href="http://www.premiumwebcart.com/" target="_blank">Premium Web Cart</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>Premium Web Cart</li>
                                     <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "http://www.premiumwebcart.com/">Premium Web Cart</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -52,6 +51,7 @@
                                     <li>Web Server : Apache Tomcat</li>
                                     <li>Database : Independent (Currently using MySQL)</li>
                                     <li>Reporting Tool : JasperReport</li>
+                                    <li>Others Tools : Html5, Css3</li>
                                     <li>Mail Transfer Protocol : SMTP</li>
                                 </ul>
                             </div>
@@ -73,21 +73,20 @@
                                 <li><a href="#tab-3">Features & Benefits</a></li>
                             </ul>
                             <div id="tab-1">
-                                <p>The place of work is as important as the work itself. Honesty Software is excited about headquartered at Bangladesh. This is how our work place looks like!
-                                    Honesty Software is a diverse end-to-end IT solution provider offering wide range of Mobile Application, web applications and also expert consultancy services. Our solutions enable companies to make their Application Lifecycle management and Project management easier and more efficient.</p>
+                                <p>If you have a business that never stops moving, then you need a business system that never stops progressing. When you’re living in the shark tank, it’s best to keep swimming.</p>
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
-                                    <li>Fixed Asset Management System</li>
-                                    <li>Inventory Management System</li>
+                                    <li>Compare Us To The Competition</li>
+                                    <li>Unbeatable Pricing</li>
+                                    <li>Check Out How It Works ?</li>
                                 </ul>
                             </div>
                             <div id="tab-3">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Maintained financial year wise Non-development and annual development program budget and expenditure information</li>
-                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>
-                                    <li>Tracking all audit objection and settlement issues</li>
+                                    <li>Many banks / merchant accounts use the most popular gateways as the "engine" of their system so it's likely we are already integrated.</li>
+                                    <li>Call us and we’ll investigate this for you and provide an answer quickly</li>
+                                    <li>On the off chance we’re not already integrated, we’ll be happy to add a new integration for you
                                 </ul>
                             </div>
                         </div>

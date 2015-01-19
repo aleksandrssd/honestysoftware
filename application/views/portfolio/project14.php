@@ -35,14 +35,14 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "http://whitecall.ca/payme/" target="_blank">Payme Logs</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
                                     <li>Whitecall Limited</li>
                                     <li>Cloud IT Limited</li>
                                     <li>Ctechuk Limited</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "http://whitecall.ca/payme/" target="_blank">Payme Logs</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -74,14 +74,13 @@
                                 <li><a href="#tab-3">Features & Benefits</a></li>
                             </ul>
                             <div id="tab-1">
-                                <p>The place of work is as important as the work itself. Honesty Software is excited about headquartered at Bangladesh. This is how our work place looks like!
-                                    Honesty Software is a diverse end-to-end IT solution provider offering wide range of Mobile Application, web applications and also expert consultancy services. Our solutions enable companies to make their Application Life cycle management and Project management easier and more efficient.</p>
+                                <p>Controll the full System and get all result . summery report, datails report, daily report</p>
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
-                                    <li>Fixed Asset Management System</li>
-                                    <li>Inventory Management System</li>
+                                    <li>TOP UP(recharge) System</li>
+                                    <li>Sms Services</li>
+                                    <li>CASH(send money)</li>
                                 </ul>
                             </div>
                             <div id="tab-3">

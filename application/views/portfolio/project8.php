@@ -35,14 +35,13 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "https://pwcproject.com/v2/login" target="_blank">Project Manager</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>Ctechuk.com</li>
                                     <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "https://pwcproject.com/v2/login" target="_blank">Project Manager</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -78,7 +77,7 @@
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
+                                    <li>Project Management System</li>
                                     <li>Fixed Asset Management System</li>
                                     <li>Inventory Management System</li>
                                 </ul>

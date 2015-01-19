@@ -39,14 +39,14 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "https://whitecall.ca" target="_blank">VPS EYE</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
                                     <li>Whitecall Limited</li>
                                     <li>Cloud IT Limited</li>
                                     <li>Ctechuk Limited</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "https://whitecall.ca" target="_blank">VPS EYE</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -56,6 +56,7 @@
                                     <li>Web Server : Apache Tomcat</li>
                                     <li>Database : Independent (Currently using MySQL)</li>
                                     <li>Reporting Tool : JasperReport</li>
+                                     <li>Others Tools : Html5, Css3</li>
                                     <li>Mail Transfer Protocol : SMTP</li>
                                 </ul>
                             </div>
@@ -82,7 +83,7 @@
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
+                                    <li>Strong Monitoring System for Telephony system</li>
                                     <li>Fixed Asset Management System</li>
                                     <li>Inventory Management System</li>
                                 </ul>

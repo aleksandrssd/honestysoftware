@@ -35,19 +35,19 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "http://crm.whitecall.ca/" target="_blank">Customer Relationship Management</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
                                     <li>Whitecall Limited</li>
                                     <li>Cloud IT Limited</li>
                                     <li>Ctechuk Limited</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "http://crm.whitecall.ca/" target="_blank">Customer Relationship Management</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Framework : Codeigniter</li>
+                                    <li>Framework : Kohana</li>
                                     <li>Script : JavaScript, Jquery, Ajax</li>
                                     <li>UI Technology : Google Web Toolkit (GWT), GXT</li>
                                     <li>Web Server : Apache Tomcat</li>
@@ -79,9 +79,9 @@
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
-                                    <li>Fixed Asset Management System</li>
-                                    <li>Inventory Management System</li>
+                                    <li>Client Management System</li>
+                                    <li>Rates Management System</li>
+                                    <li>Crd Management System</li>
                                 </ul>
                             </div>
                             <div id="tab-3">

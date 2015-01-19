@@ -34,14 +34,14 @@
                         </div>
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "https://play.google.com/store/apps/details?id=honesty.android.videoframe" target="_blank">Video Frame</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Whitecall Limited</li>
+                                    <li>Cloud IT Limited</li>
+                                    <li>Ctechuk Limited</li>
+                                    <li>Website : <a href = "https://play.google.com/store/apps/details?id=honesty.android.videoframe" target="_blank">Video Frame</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -75,16 +75,16 @@
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
-                                    <li>Fixed Asset Management System</li>
-                                    <li>Inventory Management System</li>
+                                    <li>Select any video from Gallery.</li>
+                                    <li>Select any frame number what you want to take from the video. (high quality video consists of 30 frames per second).</li>
+                                    <li>Give time in mili second with in the limit of the video. (1 second = 1000 mili second).</li>
                                 </ul>
                             </div>
                             <div id="tab-3">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Maintained financial year wise Non-development and annual development program budget and expenditure information</li>
-                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>
-                                    <li>Tracking all audit objection and settlement issues</li>
+                                    <li>See the preview of the frame and save the frame of the video in your sdcard.</li>
+                                    <li>See the preview of the frame and save the frame of the video in your sdcard.</li>
+                                    <li>Generate the frame with your own choice by selecting time or number of frame.</li>
                                 </ul>
                             </div>
                         </div>

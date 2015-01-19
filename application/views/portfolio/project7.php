@@ -35,14 +35,13 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"><a href = "https://uk.ses-astra.com/18612988/uk" target="_blank">Solidus ecare</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>Solidus ecare</li>
                                     <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "https://uk.ses-astra.com/18612988/uk" target="_blank">Solidus ecare</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
@@ -73,61 +72,25 @@
                                 <li><a href="#tab-3">Features & Benefits</a></li>
                             </ul>
                             <div id="tab-1">
-                                <p>The place of work is as important as the work itself. Honesty Software is excited about headquartered at Bangladesh. This is how our work place looks like!
-                                    Honesty Software is a diverse end-to-end IT solution provider offering wide range of Mobile Application, web applications and also expert consultancy services. Our solutions enable companies to make their Application Lifecycle management and Project management easier and more efficient.</p>
+                                <p>Fibre Integrated Reception System (FIRS) is an innovative, non-disruptive and cost-effective solution to providing broadcast signals to the buildings you design. It distributes the signals from communal antennas to each home in a block of flats, providing each with access to digital satellite TV and radio, digital terrestrial TV, FM and DAB radio.</p>
                             </div>
                             <div id="tab-2">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Audit Management System</li>
-                                    <li>Fixed Asset Management System</li>
-                                    <li>Inventory Management System</li>
+                                    <li>same service/equipment/subscription choices as individual homes</li>
+                                    <li>freedom to choose broadcast supplier and services</li>
+                                    <li>wide range of TV and radio channels, free and pay access to HD & 3D TV</li>
                                 </ul>
                             </div>
                             <div id="tab-3">
                                 <ul style="list-style-type:circle; padding-left: 30px;">
-                                    <li>Maintained financial year wise Non-development and annual development program budget and expenditure information</li>
-                                    <li>Generating all the financial statement such as trial balance, income/expenditure, receipt/payment, balance sheet automatically</li>
-                                    <li>Tracking all audit objection and settlement issues</li>
+                                    <li>ASTRA supports Sky and freesat in their trade activities.Whether you are a managing agent, a social landlord or a resident, you will find useful information on the Sky Communal TV website: http://communaltv.sky.com/</li>
+                                    <li>If you're a retailer looking for information on freesat, you'll find the latest news and training documents on their Retail Support Hub: http://retailsupporthub.freesat.co.uk/</li>
+                                    <li>ASTRA publishes a guide for professional installers in the UK and Ireland, which serves as a reminder of the best installation practices and procedures. While it is not an exhaustive tutorial for beginners, it is hoped that it will serve as an introduction for inexperienced installers and help experienced ones achieve reliable reception of all ASTRA satellite services. The publication is also designed to raise awareness of the opportunities available to installers for the provision of additional services.</li>
                                 </ul>
                             </div>
                         </div>
                     </article>
                 </div>
-            </div>
-        </section>
-    </div>
-</div>
-<div class="hireus_block">
-    <div class="container_12">
-        <section class="">
-            <div class="wrapper">
-                <article class="grid_3">
-                    <h2>Impressed?<br/>
-                        want to hire us?</h2>
-                    <p class="MB0"> Send us your details and we'll get in touch withtin 24 hours. </p>
-                </article>
-                <article class="grid_9">
-                    <form action="#" method="post" id="cform" name="cform" class="clearfix">
-                        <ul id="homehireus" class="hireform">
-                            <li>
-                                <label>Name:<span class="required">*</span></label>
-                                <input name="name" id="name" type="text" value="" tabindex="1">
-                            </li>
-                            <li>
-                                <label>Phone:</label>
-                                <input name="phone" id="phone" type="text" value="" tabindex="3">
-                            </li>
-                            <li>
-                                <label>Email:<span class="required">*</span></label>
-                                <input name="email" id="email" type="text" value="" tabindex="2">
-                            </li>
-                            <li>
-                                <input type="button" id="send-message" value="Send Details To Wee" tabindex="4">
-                            </li>
-                        </ul>
-                    </form>
-                    <div id="output"></div>
-                </article>
             </div>
         </section>
     </div>

@@ -35,14 +35,13 @@
 
                     </article>
                     <article class="grid_6">
-                        <div class="hello_box"> Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        <div class="hello_box"> <a href = "http://host30.cention.se/Login/-/workflow">Cention Contact Center</a></div>
                         <div id="accordion">
                             <h3> + Client</h3>
                             <div><ul style="list-style-type:circle; padding-left: 30px;">
+                                    <li>Cention Contact Center</li>
                                     <li>host30.cention</li>
-                                    <li>Cention</li>
-                                    <li>host30.cention</li>
-                                    <li>Cention</li>
+                                    <li>Website : <a href = "http://host30.cention.se/Login/-/workflow" target="_blank">Cention Contact Center</a></li>
                                 </ul>
                             </div>
                             <h3> + Skills Involved</h3>
